@@ -1,0 +1,254 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #f7ede2;
+}
+
+header{
+    width:100%;
+
+    display:flex;
+    justify-content: center;
+
+    padding-top:30px;
+    padding-bottom:30px;
+
+    position: ;
+    top:-1px;
+}
+
+
+#hero{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  #hero > h3{
+      padding-top:30px;
+  }
+
+  #hero > p{
+    padding-top:30px;
+}
+
+  #pilned{
+    width:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+/* SECTION MED ILLUSTRATIONER */
+
+#illustrationer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#illustrationer > div{
+    display:flex;
+    flex-direction: row; 
+}
+
+
+.illustrationstekst{
+    padding-top:100px;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+
+/* SECTIOM MED DE FRIVILIIGES ARBEJDSGANG I DKM*/
+
+#DKM_arbejdsgang{
+    display:flex;
+    flex-direction: row;
+}
+
+/* SECTION MED FORMULAR */
+
+/* Generelt for formular sectionen */
+#formular{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:100px;
+}
+
+/* textboxe øverst i formularen*/
+input[type=text]{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    background-color:white;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+  }
+
+/* textbox nederst i fomularen*/
+  textarea{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    background-color: white;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+  }
+  
+  /* send knap */
+  input[type=submit] {
+    background-color:#c23e3e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* hover på send knap*/
+  input[type=submit]:hover {
+    background-color:#ccc;
+  }
+  
+  /* generelt for hele formularen */
+  .kontaktformular {
+    width:70%;
+    background-color: #f7ede2;
+    border-radius: 5px;
+    padding: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:50px;
+  }
+
+
+/* CHECK BOXE */
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 11pt;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color:#245a91;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  #checkboxe > p{
+    padding-bottom:10px;
+  }
+
+
+
+
+
+/* FONTS */
+
+h1{
+    font-size: 20pt;
+    font-family:'Source Serif Pro', serif;
+}
+
+h2{
+    font-size:18pt;
+    font-family:'Source Serif Pro', serif;
+}
+
+h3{
+    font-size: 15pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-size: 12pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+/* Javascript events */
+.læsbrevbutton{
+    color:rgb(0, 0, 0);
+}
+
+
+.txt{
+    font-family: adobe-handwriting-tiffany,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
