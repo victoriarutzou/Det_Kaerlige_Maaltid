@@ -1,4 +1,28 @@
- /*HEAD*/
+ /*Generale styles*/
+ /* FONTS */
+
+h1{
+  font-size: 20pt;
+  font-family:'Source Serif Pro', serif;
+}
+
+h2{
+  font-size:18pt;
+  font-family:'Source Serif Pro', serif;
+}
+
+h3{
+  font-size: 15pt;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-size: 12pt;
+  font-family: 'Montserrat', sans-serif;
+}
+ 
+ 
+ /*HEADER*/
 *{
     margin:0;
     padding:0;
@@ -212,34 +236,6 @@ input[type=text]{
   #checkboxe > p{
     padding-bottom:10px;
   }
-
-
-
-
-
-/* FONTS */
-
-h1{
-    font-size: 20pt;
-    font-family:'Source Serif Pro', serif;
-}
-
-h2{
-    font-size:18pt;
-    font-family:'Source Serif Pro', serif;
-}
-
-h3{
-    font-size: 15pt;
-    font-family: 'Montserrat', sans-serif;
-}
-
-p{
-    font-size: 12pt;
-    font-family: 'Montserrat', sans-serif;
-}
-
-
 
 
 /* Javascript events */
